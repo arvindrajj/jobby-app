@@ -1,0 +1,244 @@
+.jobs-app-container {
+  height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #121212;
+}
+.user-and-filters-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 14px;
+  margin-top: 20px;
+  margin-top: 13vh;
+  position: fixed;
+  width: 28%;
+  max-width: 220px;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.jobs-list-container {
+  margin-left: 170px;
+  width: 80%;
+  display: flex;
+  margin-top: 20px;
+  margin-top: 13vh;
+  flex-direction: column;
+}
+@media all and (min-width: 767px) {
+  .jobs-list-container {
+    margin-left: 200px;
+  }
+}
+.jobs-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-error-view-container {
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
+.jobs-failure-img {
+  width: 250px;
+  height: 180px;
+  margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-failure-img {
+    width: 459px;
+    height: 315px;
+  }
+}
+.jobs-failure-heading-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-failure-heading-text {
+    margin-top: 32px;
+    font-size: 24px;
+  }
+}
+
+.jobs-failure-description {
+  text-align: center;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.user-error-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-list-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  list-style-type: none;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-user-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-container {
+  height: 220px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 39px;
+  border: 1px solid #475569;
+  width: 200px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 40px;
+  position: fixed;
+}
+@media all and (min-width: 768px) {
+  .search-container {
+    width: 280px;
+  }
+}
+.input {
+  background-color: transparent;
+  padding: 8px;
+  width: 180px;
+  font-size: 14px;
+  color: #f1f5f9;
+  outline: none;
+  border: 1px solid #475569;
+}
+@media all and (min-width: 768px) {
+  .input {
+    width: 260px;
+  }
+}
+.search-button {
+  background-color: #272727;
+  border-left: none;
+  cursor: pointer;
+  outline: none;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #f1f5f9;
+}
+
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-view {
+    width: 100%;
+    padding-bottom: 0;
+    margin-top: 40px;
+  }
+}
+
+.no-jobs-img {
+  width: 250px;
+  height: 180px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-img {
+    width: 459px;
+    height: 315px;
+  }
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-heading {
+    margin-top: 32px;
+    font-size: 24px;
+  }
+}
+
+.no-jobs-description {
+  text-align: center;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-description {
+    margin-top: 12px;
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+@media all and (max-width: 1042px) {
+  .jobs-list-item-container {
+    width: 90%;
+  }
+}

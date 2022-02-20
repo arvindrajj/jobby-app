@@ -1,0 +1,75 @@
+.job-details-item {
+  background-color: #2c364c;
+  border-radius: 12px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  list-style-type: none;
+  margin-bottom: 12px;
+  margin-right: 20px;
+}
+@media all and (min-width: 1046px) {
+  .job-details-item {
+    width: 450px;
+  }
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo-image {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: -26px;
+}
+.rating {
+  padding-top: 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.location-internship-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.employment-type {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.description-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.job-description {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
